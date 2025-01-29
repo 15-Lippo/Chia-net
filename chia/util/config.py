@@ -18,7 +18,7 @@ import importlib_resources
 import yaml
 from typing_extensions import Literal
 
-from chia.server.outbound_message import NodeType
+from chia.types.node_type import NodeType
 from chia.types.peer_info import UnresolvedPeerInfo
 from chia.util.lock import Lockfile
 
